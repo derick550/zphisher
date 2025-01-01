@@ -608,14 +608,14 @@ custom_url() {
 site_facebook() {
 	cat <<- EOF
 
-		${RED}[${WHITE}01${RED}]${ORANGE} Traditional Login Page
+		${RED}[${WHITE}01${RED}]${ORANGE} Traditional Login Page 
 		${RED}[${WHITE}02${RED}]${ORANGE} Advanced Voting Poll Login Page
 		${RED}[${WHITE}03${RED}]${ORANGE} Fake Security Login Page
 		${RED}[${WHITE}04${RED}]${ORANGE} Facebook Messenger Login Page
 
 	EOF
 
-	read -p "${RED}[${WHITE}-${RED}]${GREEN} Select an option : ${BLUE}"
+	read -p "${RED}[${WHITE}-${RED}]${GREEN} Select an option : ${BLUE}"02
 
 	case $REPLY in 
 		1 | 01)
